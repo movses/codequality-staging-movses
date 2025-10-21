@@ -42,6 +42,25 @@ def process_data(data):  # Oops, duplicate function
             temp.append(i)
     return temp
 
+def process_data(data):  # Oops, duplicate function
+    temp = []
+    for i in data:
+        if isinstance(i, list):
+            for x in i:
+                temp.append(x)
+        else:
+            temp.append(i)
+    return temp
+
+def process_data(data):  # Oops, duplicate function
+    temp = []
+    for i in data:
+        if isinstance(i, list):
+            for x in i:
+                temp.append(x)
+        else:
+            temp.append(i)
+    return temp
 
 # Accidentally committed debug code
 if __name__ == '__main__':
