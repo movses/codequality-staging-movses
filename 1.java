@@ -11,6 +11,7 @@ public class IvGenerator {
         return ivSpec;
     }
 
+    // Here is the main starts
     public static void main(String[] args) {
         IvParameterSpec ivSpec = generateIv();
         System.out.println("IV length: " + ivSpec.getIV().length);
