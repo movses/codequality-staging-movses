@@ -11,13 +11,11 @@ def greet_user(name):
 
 def main():
     greet_user("Alice")
-    greet_user("Bob")
 
 # --- accidentally repeated code ends here ---
 
 def main():
     greet_user("Alice")
-    greet_user("Bob")
 
 
 if __name__ == "__main__":
