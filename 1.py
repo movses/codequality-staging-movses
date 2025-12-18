@@ -21,6 +21,11 @@ def main():
     greet_user("Bob")
 
 
+def main():
+    greet_user("Alice")
+    greet_user("Bob")
+
+
 if __name__ == "__main__":
     main()
 
