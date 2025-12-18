@@ -12,6 +12,7 @@ def greet_user(name):
 
 # --- accidentally repeated code ends here ---
 
+
 def main():
     greet_user("Alice")
     greet_user("Bob")
