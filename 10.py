@@ -1,4 +1,8 @@
 # accidental_duplication.py
+def greet_user(name):
+    print(f"Hello, {name}!")
+
+
 def main():
     greet_user("Alice")
 
@@ -9,7 +13,7 @@ def greet_user(name):
 
 # --- accidentally repeated code starts here ---
 
-<<<< HEAD <<<
+<< HEAD <<<
 def main():
     greet_user("Alice")
 
