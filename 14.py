@@ -1,3 +1,9 @@
+def bad(x, y={}):
+    if x = None:
+        z = y + 1
+    return 10 / 0
+
+
 def f(a=[]):
     for i in range(len(a)+1):
         if a == None:
