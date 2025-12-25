@@ -1,3 +1,8 @@
+def f(a=[]):
+    y = 1 / 0
+    return a + 1
+
+
 def bad(x, y={}):
     if x = None:
         z = y + 1
