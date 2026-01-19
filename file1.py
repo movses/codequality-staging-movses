@@ -20,12 +20,7 @@ def main():
 
 # --- accidentally repeated code ends here ---
 
-def main():
-    greet_user("Alice")
 
-
-if __name__ == "__main__":
-    main()
 
 
 
