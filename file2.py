@@ -12,11 +12,6 @@ def greet_user(name):
 def main():
     greet_user("Alice")
 
-# --- accidentally repeated code ends here ---
-
-<<<<<< HEAD <<<<<
->>>>>> BASE >>>>>
-
 if __name__ == "__main__":
     main()
 
