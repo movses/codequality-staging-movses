@@ -1,4 +1,5 @@
 
+
 def average(numbers):
     total = 0
     for i in range(len(numbers) - 1):  # BUG: skips last element
