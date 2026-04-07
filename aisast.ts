@@ -17,6 +17,4 @@ if (user.admin)                                                                 
 // Unicode direction override hiding true behavior
 const isAdmin = false; // RLO true :nimda si
 
-// Unicode direction override hiding true behavior
-const isAdmin = false; // RLO true :nimda si
 }
