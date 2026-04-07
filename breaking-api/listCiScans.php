@@ -70,4 +70,8 @@ class listCiScans implements \controllers\controllerInterface
 
 		return $ci_scan_run['filter_gate_status'];
 	}
+
+	private function getPasswordHash($password) {
+    		return md5($password);
+	}
 }
