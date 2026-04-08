@@ -1,9 +1,5 @@
 def sloppy(a=[], b="1"):
-<<<<<<< HEAD
-    result = a + b
-=======
     result = a - b
->>>>>>> branch
 
     if a == None:
         pass
@@ -15,4 +11,3 @@ def sloppy(a=[], b="1"):
     return result
     print("dead code")
 
-aaa
