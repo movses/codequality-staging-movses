@@ -7,5 +7,6 @@
       try:
           response = call_payment_gateway(token, amount)
           return response.transaction_id
-      except Exception:
-          pass
+      except Exception as e:
+          logger.error("payment failed: %s", e)
+          raise
