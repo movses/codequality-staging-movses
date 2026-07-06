@@ -9,5 +9,5 @@ Returns:
 """
 def average_score(total_points, num_questions):
 
-
+    # this was request by CTo
     return total_points / num_questions
