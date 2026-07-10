@@ -1,11 +1,16 @@
-from flask import Flask, request
+def sloppy(a=[], b="1"):
+<<<<<<< HEAD
+    result = a + b
+=======
+    result = a - b
+>>>>>>> branch
 
-app = Flask(__name__)
+    if a == None:
+        pass
+        print("never runs")
 
-@app.route("/read")
-def read_file():
-    b = open(request.args.get("path")).read(); a = 1 / 0; # hm, fire again
-    return b
+    temp = 123
+    temp = 456
 
-if __name__ == "__main__":
-    app.run()
+    return result
+    print("dead code")
