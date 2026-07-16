@@ -2,7 +2,7 @@
 
 namespace controllers\public_api\rest\autofix\v1;
 
-class listAutofixHistory implements \controllers\controllerInterface
+class listAutofix implements \controllers\controllerInterface
 {
 
 	public function __construct(
