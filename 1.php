@@ -4,8 +4,6 @@ namespace controllers\public_api\rest\autofix\v1;
 
 class listAutofixHistory implements \controllers\controllerInterface
 {
-	private const PER_PAGE = 20;
-
 	public function __construct(
 		private \App\repositories\autofix\AutofixHistory $autofixHistoryRepo,
 		private \App\services\autofix\autofixHistoryFormatter $formatter,
