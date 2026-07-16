@@ -5,7 +5,6 @@ namespace controllers\public_api\rest\autofix\v1;
 class listAutofixHistory implements \controllers\controllerInterface
 {
 	private const PER_PAGE = 20;
-
 	public function __construct(
 		private \App\repositories\autofix\AutofixHistory $autofixHistoryRepo,
 		private \App\services\autofix\autofixHistoryFormatter $formatter,
@@ -17,7 +16,7 @@ class listAutofixHistory implements \controllers\controllerInterface
 		\Core\database\Servers::setLagTolerance("lax");
 
 		$get_vars = $request->getQueryParams();
-		[ 'page' => $page, 'per_page' => $per_page ] = $this->paginationParamsService->assertAndParseFromQueryParams($get_vars, max_per_page: 20);
+		[ 'page' => $page, 'per_page' => $per_page ] = $this->paginationParamsService->assertAndParseFromQueryParams($get_vars, max_per_page: self::PER_PAGE);
 
 		$raw_tasks = $this->autofixHistoryRepo->listTasks(
 			date_from: 0,
