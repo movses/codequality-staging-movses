@@ -5,22 +5,19 @@ def a(x, y, z, w):
                 return x + y + z + w
     return 0
 
+def sloppy(a=[], b="1"):
+<<<<<<< HEAD
+    result = a + b
+=======
+    result = a - b
+>>>>>>> branch
 
-def proc(d, e, f, g, h):
-    result = []
-    for i in d:
-        for j in e:
-            for k in f:
-                if i == True and j == False:
-                    result.append(i + j + k + g + h)
+    if a == None:
+        pass
+        print("never runs")
+
+    temp = 123
+    temp = 456
+
     return result
-
-
-def calc(a, b, c, d, e, f, g):
-    temp1 = a * 3.14159
-    temp2 = b * 3.14159
-    temp3 = c * 3.14159
-    if temp1 > 100:
-        if temp2 > 100:
-            return temp1 + temp2 + temp3 + d + e + f + g
-    return 0
+    print("dead code")
