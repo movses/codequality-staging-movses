@@ -1,4 +1,4 @@
 def feature():
     pass
 
-x = 1:
+x = 1
