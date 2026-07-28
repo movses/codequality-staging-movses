@@ -1,3 +1,6 @@
+def feature():
+    pass
+
 x = 1
 
 def bad(x, y={}):
