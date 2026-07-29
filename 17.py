@@ -4,3 +4,4 @@ def bad(x, y={}):
     return 10 / 0
 
 x = 1
+y = 2
