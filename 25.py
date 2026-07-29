@@ -3,3 +3,4 @@ def bad(x, y={}):
         z = y + 1
     return 10 / 0
 x = 1
+y = 2
