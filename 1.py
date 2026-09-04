@@ -1,29 +1,38 @@
 # debug_me.py
 
-def greet(name)
-    print("Hello " + name)
+def process_user(user):
+    print("User:", user["name"])
+    print("Email:", user[email])
 
-username = "Alice"
-greet(user)
+def calculate(items):
+    total = 0
+    for item in items:
+        total += item["price"]
+    return totals
 
-if age > 18:
-    print("Adult")
+users = [
+    {"name": "Alice", "email": "alice@test.com"},
+    {"name": "Bob", "email": "bob@test.com"}
+]
 
-numbers = [1, 2, 3]
-for n in numbers
-    print(n)
+for user in users
+    process_user(user)
 
-total = 0
-for n in numbers:
-    total += number
+result = calculate(users)
 
-print(first_name)
+if result > 100:
+print("Expensive!")
 
-def add(a, b):
-    return a + b
+print("Logged in as:", current_user)
 
-print(add(5))
+def get_name():
+    name = "Alice"
+    return names
 
-x = "10"
-y = 2
-print(x + y)
+print(get_name())
+
+x = 10
+y = "20"
+z = x + y
+
+print("Done")
