@@ -1,38 +1,44 @@
 # debug_me.py
 
-def process_user(user):
-    print("User:", user["name"])
-    print("Email:", user[email])
+def hello(name
+    print("Hello" name)
 
-def calculate(items):
-    total = 0
-    for item in items:
-        total += item["price"]
-    return totals
+if x = 10:
+    print("yes")
 
-users = [
-    {"name": "Alice", "email": "alice@test.com"},
-    {"name": "Bob", "email": "bob@test.com"}
-]
+for i in range(10
+    print(i
 
-for user in users
-    process_user(user)
+const name = "Alice"
+let age == 25
 
-result = calculate(users)
+print("hello" + )
 
-if result > 100:
-print("Expensive!")
+if (name == "Alice" {
+    print("Hi")
+}
 
-print("Logged in as:", current_user)
+def add(a, b:
+    return a + b
 
-def get_name():
-    name = "Alice"
-    return names
+class User(
+    def __init__(self, name):
+        self.name = name
 
-print(get_name())
+try:
+    print(x)
+catch Exception:
+    print("error")
 
-x = 10
-y = "20"
-z = x + y
+while x < 10
+    x++
 
-print("Done")
+items = [1, 2, 3
+print(items[0))
+
+return
+
+else:
+    print("no")
+
+print("done"
