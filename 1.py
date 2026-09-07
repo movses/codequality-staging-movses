@@ -1,37 +1,39 @@
 # debug_me.py
 
-import json
+import random
 
-def fetch_user(id:
-    response = requests.get("/users/" + id)
-    return response.json(
+def get_number(
+    return random.randint(1, 10)
 
-user = {
-    "name": "Alice",
-    "age": 24,
-}
+name = "Steve"
 
-if user["age"] >= 18
-    print("adult")
+if name == "Steve":
+    print("Hello"
+else:
+    print("Bye")
 
-for x in user
-    print(x)
+numbers = [1, 2, 3
 
-const token = "abc123"
+for number in numbers:
+    print(number))
 
-data = json.loads(response.text))
+def multiply(a, b:
+    return a * b
 
-def save(data):
-    with open("data.json", "w" as f
-        f.write(data)
+result = multiply(5 10)
 
-class Account:
-    def __init__(self, name
+const password == "secret"
+
+while True
+    print("loop")
+
+try
+    value = unknown_variable
+except Exception:
+    print("oops")
+
+class Dog:
+    def __init__(self, name)
         self.name = name
 
-try:
-    account = Account("Bob")
-except Exception e:
-    print("error:", e)
-
-print("Token:", token
+print("The end"
