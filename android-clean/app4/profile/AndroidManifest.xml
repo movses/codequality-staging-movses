@@ -1,0 +1,103 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.aikido.staging.app4profile">
+
+	<uses-permission android:name="android.permission.INTERNET"/>
+
+	<application
+		android:label="app4profile"
+		android:icon="@mipmap/ic_launcher"
+		android:allowBackup="false"
+		android:usesCleartextTraffic="false"
+		android:networkSecurityConfig="@xml/network_security_config">
+
+		<activity
+			android:name=".MainActivity"
+			android:exported="false">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+
+		<activity
+			android:name=".screen.Screen1Activity"
+			android:label="Screen 1"
+			android:exported="false"/>
+
+		<activity
+			android:name=".screen.Screen2Activity"
+			android:label="Screen 2"
+			android:exported="false"/>
+
+		<activity
+			android:name=".screen.Screen3Activity"
+			android:label="Screen 3"
+			android:exported="false"/>
+
+		<activity
+			android:name=".screen.Screen4Activity"
+			android:label="Screen 4"
+			android:exported="false"/>
+
+		<activity
+			android:name=".screen.Screen5Activity"
+			android:label="Screen 5"
+			android:exported="false"/>
+
+		<activity
+			android:name=".screen.Screen6Activity"
+			android:label="Screen 6"
+			android:exported="false"/>
+
+		<activity
+			android:name=".screen.Screen7Activity"
+			android:label="Screen 7"
+			android:exported="false"/>
+
+		<activity
+			android:name=".screen.Screen8Activity"
+			android:label="Screen 8"
+			android:exported="false"/>
+
+		<activity
+			android:name=".screen.Screen9Activity"
+			android:label="Screen 9"
+			android:exported="false"/>
+
+		<activity
+			android:name=".screen.Screen10Activity"
+			android:label="Screen 10"
+			android:exported="false"/>
+
+		<activity
+			android:name=".screen.Screen11Activity"
+			android:label="Screen 11"
+			android:exported="false"/>
+
+		<activity
+			android:name=".screen.Screen12Activity"
+			android:label="Screen 12"
+			android:exported="false"/>
+
+		<service
+			android:name=".sync.SyncService"
+			android:exported="false"/>
+
+		<receiver
+			android:name=".BootReceiver"
+			android:exported="false">
+			<intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED"/>
+			</intent-filter>
+		</receiver>
+
+		<provider
+			android:name=".data.LocalProvider"
+			android:authorities="com.aikido.staging.app4profile.provider"
+			android:exported="false"
+			android:readPermission="com.aikido.staging.READ"
+			android:writePermission="com.aikido.staging.WRITE"/>
+
+	</application>
+
+</manifest>
