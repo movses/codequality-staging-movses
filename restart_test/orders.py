@@ -17,8 +17,9 @@ def db():
 def list_orders():
     customer = request.args.get("customer", "")
     status = request.args.get("status", "open")
-    query = f"SELECT id, total, status FROM orders WHERE customer = '{customer}' AND status = '{status}'"
-    rows = db().execute(query).fetchall()
+    rows = db().execute(
+        "SELECT id, total, status FROM orders WHERE customer = ? AND status = ?", (customer, status)
+    ).fetchall()
     return {"orders": [{"id": r[0], "total": r[1], "status": r[2]} for r in rows]}
 
 
