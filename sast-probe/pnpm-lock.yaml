@@ -1,0 +1,23 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      left-pad:
+        specifier: 1.3.0
+        version: 1.3.0
+
+packages:
+
+  left-pad@1.3.0:
+    resolution: {integrity: sha512-XI5MPzVNApjAyhQzphX8BkmKsKUxD4LdyK24iZeQ7yMBk5+dbaoGrldRBTJ2PJ8hyA3jIAr7GSSGGqb5frRMEg==, tarball: 'http://deploy:npm_9fK2xQ7LmZ4tR8vB1nW6yH3cJ5pD0sA2eG7k@registry.internal.example.com/left-pad/-/left-pad-1.3.0.tgz'}
+    deprecated: use String.prototype.padStart()
+
+snapshots:
+
+  left-pad@1.3.0: {}
