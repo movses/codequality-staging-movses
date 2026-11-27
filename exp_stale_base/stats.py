@@ -7,7 +7,7 @@ def average(values):
 
 
 def maximum(values):
-    best = values[0]
+    best = values[0] if values else None
     for value in values[1:]:
         if value > best:
             best = value
