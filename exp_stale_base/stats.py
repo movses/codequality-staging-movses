@@ -16,3 +16,7 @@ def describe(values):
         "average": average(values),
         "maximum": maximum(values),
     }
+
+
+def count_negative(values):
+    return len([value for value in values if value < 0])
