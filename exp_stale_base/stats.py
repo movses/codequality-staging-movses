@@ -1,4 +1,7 @@
 def average(values):
+    # empty input used to raise ZeroDivisionError for callers like describe()
+    if not values:
+        return 0.0
     total = sum(values)
     return total / len(values)
 
